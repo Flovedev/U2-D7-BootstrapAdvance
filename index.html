@@ -45,32 +45,27 @@
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
-                        aria-expanded="false">
-                        Dropdown
-                    </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
+                    <a class="nav-link" href="#week">Week</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
+                    <a class="nav-link" href="#summer">Summer</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#deal">Day's deal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#last">Last minute</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
+
         </div>
     </nav>
 
-    <div class="jumbotron">
+    <div class="jumbotron pt-5">
         <h1 class="display-4">Planet express</h1>
         <p class="lead">Travel with us is not always safe. But fun.</p>
         <hr class="my-4">
@@ -80,7 +75,7 @@
     </div>
 
 
-    <div class="container">
+    <div class="container mb-5" id="week">
         <h2>Deal of the week:</h2>
 
         <div class="row">
@@ -167,7 +162,7 @@
         </div>
     </div>
 
-    <div class="container mt-5">
+    <div class="container mt-5 mb-5 shadow-lg p-3 mb-5 bg-white rounded" id="summer">
         <h2>Welcome Summer:</h2>
 
         <div class="row">
@@ -295,7 +290,7 @@
 
     </div>
 
-    <div class="container mt-5">
+    <div class="container mt-5 mb-5 d-sm-none d-md-block" id="deal">
         <h2>Deal of the day:</h2>
 
         <div class="row">
@@ -308,7 +303,7 @@
                     </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">From <span class="offers">$799.99</span> <span
-                                class="discounts">271.99</span>
+                                class="discounts">$271.99</span>
                         </li>
                     </ul>
                     <div class="card-body">
@@ -320,12 +315,12 @@
                 <div class="card" style="width: 22rem;">
                     <img src="./assets/Amazonia.webp" class="card-img-top" alt="Amazonia">
                     <div class="card-body">
-                        <h5 class="card-title">Amazonia</h5>
+                        <h5 class="card-title">Amazonia <span class="discounts">33%</span></h5>
 
                     </div>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item">From <span class="offers">$799.99</span> <span
-                                class="discounts">400</span>
+                        <li class="list-group-item">From <span class="offers">$399.99</span> <span
+                                class="discounts">$267.99</span>
                         </li>
                     </ul>
                     <div class="card-body">
@@ -334,6 +329,10 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="container mb-5" id="last">
+        <h2>Last minute:</h2>
     </div>
 
 </body>
